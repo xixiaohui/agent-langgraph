@@ -1,0 +1,31 @@
+{
+  "header": {
+    "userName": "天复新材料-AH",
+    "accessToken": "<KEY>"
+  },
+  "body": {
+    "accountFields": [
+      "userId",
+      "balance",
+      "pcBalance",
+      "budget",
+      "budgetType",
+      "budgetOfflineTime",
+      "cost",
+      "excludeIp",
+      "openDomains",
+      "payment",
+      "regDomain",
+      "regionTarget",
+      "userStat",
+      "userLevel",
+      "regionPriceFactor",
+      "geoLocationStatus",
+      "excludeQueryRegionStatus",
+      "longMonitorSublink",
+      "accountMonitorUrl",
+      "cid",
+      "liceName"
+    ]
+  }
+}
