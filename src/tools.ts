@@ -151,6 +151,8 @@ export const searchKnowledge = tool(
 );
 
 import { BAIDU_TOOLS } from "./baidu/tools.js";
+import { financeTools } from "./finance/index.js";
+import { finnhubTools } from "./finnhub/index.js";
 
 /**
  * All tools available to the agent.
@@ -161,5 +163,7 @@ export const TOOLS = [
   getCurrentTime,
   getWeather,
   searchKnowledge,
+  ...financeTools,
+  ...finnhubTools,
   ...BAIDU_TOOLS,
 ];

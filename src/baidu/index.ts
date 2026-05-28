@@ -39,6 +39,12 @@ export * as FcTransTraceService from "./services/fcTransTrace.js";
 export * as SearchService from "./services/search.js";
 export * as BulkJobService from "./services/bulkJob.js";
 
+// Reports
+export { baiduReportTools } from "./reports/index.js";
+
+// Keywords
+export { baiduKeywordTools } from "./keywords/index.js";
+
 // Agent tools
 export {
   BAIDU_TOOLS,

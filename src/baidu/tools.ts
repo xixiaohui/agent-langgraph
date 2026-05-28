@@ -2720,6 +2720,9 @@ export const baiduGetChangedScale = tool(
 
 // ── All Baidu tools ───────────────────────────────────
 
+import { baiduReportTools } from "./reports/index.js";
+import { baiduKeywordTools } from "./keywords/index.js";
+
 export const BAIDU_TOOLS = [
   baiduGetAccountInfo,
   baiduUpdateAccountInfo,
@@ -2825,4 +2828,6 @@ export const BAIDU_TOOLS = [
   baiduCancelDownload,
   baiduGetChangedIds,
   baiduGetChangedScale,
+  ...baiduReportTools,
+  ...baiduKeywordTools,
 ];
